@@ -1,0 +1,101 @@
+/* ****************通用********************* */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* 大小 A4纸为21*29.7cm */
+    width: 1050px;
+    height: 1485px;
+    /* 居中 */
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* flex盒子 单列居中向下*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 背景色 */
+    background-color: #FFFFFF;
+    /* 字体 */
+    font-size: 20px;
+    font-family: Microsoft JhengHei;
+    color: #333333;
+    /* 阴影 */
+    box-shadow: 0px 0px 5px 4px #D6DADF;
+}
+
+h3{
+    font-weight: 650;
+}
+p {
+    font-weight: 550;
+}
+/* ****************************************** */
+
+
+
+
+/* ***************个人信息栏 格式*************** */
+.head{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-top: 35px;
+}
+.head .base-information{
+    width: 500px;
+
+}
+.head img{
+    margin-right: 20px;
+    width: 150px;
+    /* border:1px solid #D6DADF; */
+    box-shadow: 0px 0px 1px 1px #E3E6EA;
+}
+/* ************************************** */
+
+
+
+
+/* *******************各个模块************************* */
+.part {
+    width: 90%;
+    padding: 5px;
+    margin-top: 10px;
+    /* 背景色 */
+    background-color: #FFFFFF;
+    
+
+}
+/* 板块的大标题部分 */
+.part .title {
+    display: flex;
+    align-items: center;
+    /* 下边界框 */
+    border-bottom: 1px solid #333333;
+}
+
+.part img {
+    width: 35px;
+}
+/* ******************************************** */
+
+
+
+
+/* ********************三联栏************************ */
+.bar{
+    /* 宽度 */
+    width: 95%;
+    /* 居中 */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ******************************************** */
