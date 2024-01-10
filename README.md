@@ -2,4 +2,4 @@
 
 效果展示
 
-![image](img\image.png)
+![image](./img/image.png)
