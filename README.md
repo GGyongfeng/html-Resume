@@ -2,4 +2,4 @@
 
 效果展示
 
-![image](C:\Users\gyf15\Desktop\Resume\img\image.png)
+![image](img\image.png)
