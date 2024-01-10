@@ -1,0 +1,175 @@
+/* ****************通用********************* */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* 大小-A4纸 */
+    width: 1050px;
+    height: 1485px;
+
+    /* 大小-稍长*/
+    /* width: 1000px;
+    height: 1485px; */
+
+    /* 居中 */
+    margin: auto;
+    /* flex盒子 单列居中向下*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 背景色 */
+    background-color: #FFFFFF;
+    /* 字体 */
+    font-size: 18px;
+    font-family: 'FangSong', sans-serif;
+    color: #333333;
+    /* 阴影 */
+    box-shadow: 0px 0px 5px 4px #D6DADF;
+    /* 行高设置为1.3 */
+    line-height: 1.5;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+
+a {
+    color: black;
+    /* 清除文本颜色，如果您之前有设置 */
+    text-decoration: none;
+    /* 清除下划线，如果您之前有设置 */
+}
+
+/* 将列表项样式的点添加到里li标签内部 */
+ul {
+    list-style-type: none;
+    /* 移除默认的点样式 */
+    margin-left: 5px;
+}
+
+ul .dot::before {
+    content: "·";
+    /* 添加一个点 */
+}
+
+/* ****************************************** */
+
+
+
+
+/* ***************个人信息栏 格式*************** */
+.head {
+    width: 90%;
+    margin: 45px 0px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* 用于姓名 */
+.head h2 {
+    text-align: center;
+}
+
+/* 用于信息栏 */
+.head div {
+    display: flex;
+    align-items: center;
+}
+
+.head div a {
+    display: flex;
+    align-items: center;
+}
+
+.head ion-icon {
+    font-size: 1.5rem;
+}
+
+/* ************************************** */
+
+
+
+
+/* *******************各个模块************************* */
+.part {
+    width: 90%;
+    padding: 10px;
+    /* 背景色 */
+    background-color: #FFFFFF;
+    transition: 0.05s;
+}
+
+.part:hover {
+    transform: scale(1.007);
+    border-radius: 5px;
+    /* 阴影 */
+    box-shadow: 0px 0px 3px 3px #e0e0e0;
+}
+
+/* 板块的大标题部分 */
+.part .title {
+    display: flex;
+    align-items: center;
+    /* 下边界框 */
+    border-bottom: 1px solid #333333;
+}
+
+.part img {
+    width: 30px;
+}
+
+/* ******************************************** */
+
+
+
+
+/* ********************三联栏************************ */
+.bar {
+    /* 宽度 */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 加行高 */
+.heighter {
+    line-height: 1.8;
+}
+
+/* 加粗字体 加距离 */
+.weighter {
+    font-weight: 600;
+    margin-right: 8px;
+    line-height: 1.8;
+}
+
+/* ******************************************** */
+
+#qita strong {
+    display: inline-block;
+    width: 110px;
+    text-align: center;
+}
+
+#jineng strong {
+    /* display设置为inline-block 才可以为span设置大小 */
+    display: inline-block;
+    width: 100px;
+    /* text-align: center; */
+}
+#jineng span {
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.8;
+    width: 90px;
+    /* text-align: center; */
+}
