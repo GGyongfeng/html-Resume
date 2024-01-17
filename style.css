@@ -30,6 +30,8 @@ body {
     box-shadow: 0px 0px 5px 4px #D6DADF;
     /* 行高设置为1.3 */
     line-height: 1.5;
+
+    position: relative;
 }
 
 section {
@@ -65,7 +67,7 @@ ul .dot::before {
 /* ***************个人信息栏 格式*************** */
 .head {
     width: 90%;
-    margin: 45px 0px 35px;
+    margin: 45px 0px 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -101,7 +103,7 @@ ul .dot::before {
 /* *******************各个模块************************* */
 .part {
     width: 90%;
-    padding: 10px;
+    padding: 9px;
     /* 背景色 */
     background-color: #FFFFFF;
     transition: 0.05s;
@@ -166,10 +168,23 @@ ul .dot::before {
     width: 100px;
     /* text-align: center; */
 }
+
 #jineng span {
     display: inline-block;
     font-weight: 600;
     line-height: 1.8;
-    width: 90px;
-    /* text-align: center; */
+}
+
+/* 下载简历按钮用到button */
+
+.downlode {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    border: none;
+    background-color: #FFFFFF;
+
+    font-family: 'FangSong', sans-serif;
+    color: #333333;
 }
